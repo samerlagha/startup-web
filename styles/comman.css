@@ -1,3 +1,4 @@
+
 .action-button{
 
     background-color: #3040c4;
@@ -9,3 +10,9 @@
     border-radius: 2px;
     border: none;
 }
+/* @media screen and (min-width:400px){
+.action-button{
+    width: 160px;
+    
+}
+} */
