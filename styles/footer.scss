@@ -23,7 +23,7 @@
             margin: 0;
         }
     }
-     .logo {
+    div.logo {
         @include for-large-down {
             display: none;
         }
@@ -32,19 +32,6 @@
 
 .about-company {
     margin-top: 44px;
-}
-
-.footer-navigation {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    @include for-large-up {
-        width: 1140px;
-        margin: 0 auto;
-        height: 338px;
-        display: flex;
-        flex-direction: row;
-    }
 }
 
 .footer-links {
@@ -60,7 +47,18 @@
     }
 }
 
-
+.footer-navigation {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    @include for-large-up {
+        width: 1140px;
+        margin: 0 auto;
+        height: 338px;
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 .downloads {
     margin: 25px 15px 0 15px;
@@ -132,11 +130,10 @@
 }
 
 .social-links {
-    margin-top: 30px;
+    margin-top: 17px;
     margin-bottom: 23px;
     @include for-large-up {
         margin-left: auto;
-        margin-bottom: 0;
     }
     &__item {
         margin-left: 20px;

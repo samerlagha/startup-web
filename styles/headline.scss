@@ -1,9 +1,9 @@
 .headline {
     width: 100%;
     @include for-large-up {
-        position: relative;
         width: 1140px;
         margin: auto;
+        position: relative;
         margin-top: 84px;
         display: flex;
         padding-bottom: 77px;
@@ -70,7 +70,7 @@
     }
     &__banner {
         width: 100%;
-        margin-bottom: 36px;
+        margin-bottom: 34px;
         @include for-large-up {
             position: relative;
             right: -105px;

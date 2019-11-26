@@ -7,8 +7,7 @@
         flex-direction: row;
         margin: auto;
         justify-content: space-between;
-        padding-bottom: 106px;
-        padding-top: 30px;
+        padding: 30px 130px 106px;
         align-items: center;
     }
     &__row {
@@ -28,17 +27,17 @@
         align-items: center;
         justify-content: center;
         flex: 1;
-        &:last-child {
-            border-right: none;
-        }
         @include for-large-up {
             border: none;
             flex-direction: row;
-        } 
-    } 
+        }
+      
+        &:last-child {
+            border-right: none;
+        }
+    }
     &__logo {
         filter: brightness(0);
         max-width: 80%;
     }
-    }
-    
+}

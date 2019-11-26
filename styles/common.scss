@@ -2,17 +2,12 @@
     background-color: #3040c4;
     color: #fff;
     height: 48px;
-    width: 160px;
     font-size: 18px;
     font-weight: 700;
     border-radius: 2px;
     border: none;
     @include for-large-up {
         width: 160px;
-    }
-    &__secondary{
-        color:$text-color-black;
-        background-color: $color-white;
     }
 }
 
