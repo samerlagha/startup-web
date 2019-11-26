@@ -34,8 +34,8 @@
         height: 13px;
         background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
         display: inline-block;
-        // margin-right: 20px;
-        // margin-left: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .logo__description {
         display: none;
@@ -59,9 +59,9 @@
         line-height: 25px;
         font-size: 18px;
         margin-right: 50px;
-        // &:last-child {
-        //     margin-right: 0;
-        // }
+        &:last-child {
+            margin-right: 0;
+        }
     }
     &__item_selected {
         font-weight: 700;

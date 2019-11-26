@@ -7,9 +7,9 @@
     font-weight: 700;
     border-radius: 2px;
     border: none;
-    // @include for-large-up {
-    //     width: 160px;
-    // }
+    @include for-large-up {
+        width: 160px;
+    }
     &__secondary{
         color:$text-color-black;
         background-color: $color-white;
