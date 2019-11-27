@@ -15,12 +15,13 @@
 @import'communication.scss';
 @import'inbox.scss';
 
-* {
-    box-sizing: border-box;
+// * {
+//     box-sizing: border-box;
     
-}
+// }
 html {
     font-size: 16px;
+    width: 1400px;
     font-family: 'Work Sans', sans-serif;
     color: #2B292D;
 }
