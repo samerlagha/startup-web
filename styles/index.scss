@@ -14,6 +14,11 @@
 @import'audience.scss';
 @import'communication.scss';
 @import'inbox.scss';
+
+* {
+    box-sizing: border-box;
+    
+}
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -25,10 +30,10 @@ html {
 }
 
 .page {
-    width: 100%;
+     width: 100%;
     @include for-large-up {
         .page {
-            max-width: 1400px;
+            max-width: 1140px;
             margin: auto;
             min-height: 100vh;
             display: flex;
