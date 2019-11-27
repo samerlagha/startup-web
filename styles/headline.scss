@@ -1,6 +1,6 @@
 .headline {
-    // width: 100%;
-    width: 320px;
+    width: 100%;
+  
     @include for-large-up {
         width: 1140px;
         margin: auto;
