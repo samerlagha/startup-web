@@ -14,28 +14,25 @@
 @import'audience.scss';
 @import'communication.scss';
 @import'inbox.scss';
+body {
+    font-family: 'Work Sans', sans-serif;
+}
 
-// * {
-//     box-sizing: border-box;
-    
-// }
 html {
     font-size: 16px;
-    width: 1400px;
     font-family: 'Work Sans', sans-serif;
     color: #2B292D;
 }
 
 .page {
-     width: 100%;
+    width: 100%;
     @include for-large-up {
         .page {
-            display: flex;
-            flex-direction: column;
             max-width: 1400px;
             margin: auto;
             min-height: 100vh;
-            
+            display: flex;
+            flex-direction: column;
         }
     }
 }
